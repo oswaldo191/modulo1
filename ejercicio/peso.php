@@ -12,9 +12,9 @@ class peso {
 
 	 	$dolar = $moneda;
 
-	 	$peso = 0.01;
+	 	$peso = 0.02;
 
-	    $result = $peso / $dolar;
+	    $result = $peso * $dolar;
 
 	    return $result;
 	}
@@ -33,7 +33,10 @@ $cambio = new peso($_GET["moneda"]);
 <body>
 
 	<h1>Cambio a peso</h1>
-	<p>Peso recibido: <?php echo $_GET["moneda"];?> / US$ 53.00 = <?php echo $cambio->peso($_GET["moneda"]); ?></p>
+	<p>Peso recibido: 
+		<?php echo $_GET["moneda"];?> / US$ 53.00 = <?php echo $cambio->peso($_GET["moneda"]); ?>
+			
+		</p>
 
 </body>
 </html>

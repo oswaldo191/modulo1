@@ -20,6 +20,7 @@ $dato  = array('nombre' => $nombre, 'apellido' => $apellido);
 
 echo "<p>" . $dato['nombre']. ' '.$dato['apellido']. "</p>";
 
+
 ?>
 
 </body>

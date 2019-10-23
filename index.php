@@ -37,13 +37,13 @@
 			<a href="./ejerciciob/redirec.php">Redirección</a>
 		</div>
 		<div class="col-md-3">
-			<a href="./ejercicio/ejercicio2.php">Ejercicio Basico 2</a>
+			<a href="./ejerciciob/url.php">Ejercicio Basico 2</a>
 		</div>
 		<div class="col-md-3">
-			<a href="./ejercicio/ejercicio3.php">Ejercicio Basico 3</a>
+			<a href="./ejerciciob/ip.php">Ejercicio Basico 3</a>
 		</div>
 		<div class="col-md-3">
-			<a href="./ejercicio4/index.php">Ejercicio Basico 4</a>
+			<a href="./ejerciciob/info.php">Ejercicio Basico 4</a>
 		</div>
 	</div>
 </div>

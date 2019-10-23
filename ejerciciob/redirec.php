@@ -1,8 +1,6 @@
 <?php
 
-
-
-header("../ejerciciob/aqui.php");
+header('Location: ../ejerciciob/aqui.php');
 exit();
 
 ?>

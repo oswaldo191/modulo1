@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "username";
-$password = "password";
+$username = "root";
+$password = "";
 $dbname = "midb";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -10,7 +10,7 @@ if ($conn->connect_error) {
     die("Conexion Fallida: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO tabla (dato)
+$sql = "INSERT INTO fdfx (name)
 VALUES ('valor')";
 
 if ($conn->query($sql) === TRUE) {
@@ -20,6 +20,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
 ?>
 
 
